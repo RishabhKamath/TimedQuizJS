@@ -1,12 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  font-size: 50px;
+  color: blueviolet;
+
+}
+
+
 #quiz-container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
 #start-screen, #quiz-screen, #end-screen {
   padding: 20px;
-  border: 1px solid black;
   margin-bottom: 20px;
 }
 
@@ -14,21 +24,27 @@
   padding: 10px 20px;
   font-size: 18px;
   margin-top: 20px;
+  color: white;
+  background-color: blueviolet;
+  border: none;
 }
 
 #time-left {
-  font-size: 18px;
+  font-size: 50px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 #question {
   font-size: 24px;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 #choices {
   font-size: 18px;
   margin-bottom: 20px;
+  text-align:left;
 }
 
 #final-score {
@@ -43,4 +59,26 @@ form {
 label, input {
   font-size: 18px;
   margin-right: 10px;
+}
+
+
+#high-scores-container{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+table#high-scores {
+  border-collapse: collapse; 
+  margin: 0 auto; 
+  width: 40%; 
+
+}
+
+table#high-scores td, table#high-scores th {
+  border: 1px solid black; 
+  padding: 8px; 
+}
+
+table#high-scores th {
+  text-align: center; 
 }
