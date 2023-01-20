@@ -18,6 +18,32 @@ let questions = [
     choices: ["interface", "throws", "program", "short"],
     correctAnswer: 2
   },
+  {
+    question: "Which of the following is not a type of loop in JavaScript?",
+    choices: ["for", "foreach", "while", "do-while"],
+    correctAnswer: 1
+  },
+  {
+    question: "What is the correct way to declare a variable in JavaScript?",
+    choices: ["var variableName", "let variableName", "const variableName", "Variable variableName"],
+    correctAnswer: 1
+  },
+  {
+    question: "What is the result of 5 + '5' in JavaScript?",
+    choices: ["10", "55", "\"55\"", "TypeError"],
+    correctAnswer: 2
+  },
+  {
+    question: "How do you add an element to the end of an array in JavaScript?",
+    choices: ["array.append(element)", "array.push(element)", "array[array.length] = element", "array.add(element)"],
+    correctAnswer: 1
+  },
+  {
+    question: "What is the correct way to check if a variable is undefined in JavaScript?",
+    choices: ["if (variable === null)", "if (variable === undefined)", "if (typeof variable === 'undefined')", "if (!variable)"],
+    correctAnswer: 2
+  },
+  
 ];
 
 // Start button event listener
@@ -106,6 +132,7 @@ function checkAnswer() {
   
   // Save score function
   function saveScore() {
+    
     // Get player's initials
     let initials = document.getElementById("initials").value;
   
