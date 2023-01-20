@@ -14,6 +14,9 @@ Instructions:
 ![Home Page](Assets/images/Screenshot%202023-01-20%20004206.png)
 ![Question page](Assets/images/Screenshot%202023-01-20%20004257.png)
 ![Quiz completion page](Assets/images/Screenshot%202023-01-20%20004325.png)
+![High Scores Page](Assets/images/Screenshot%202023-01-20%20005009.png)
 
 
 Link to GitHub Repo: https://github.com/RishabhKamath/TimedQuizJS
+
+Link to deployed page: https://rishabhkamath.github.io/TimedQuizJS/
